@@ -1,0 +1,20 @@
+{
+  "name": "buyticket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/writefile.js && node backend/server.js",
+    "start:ten": "node backend/writefile.js 10 && node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wakeGISer/buyTicket.git"
+  },
+  "author": "wec",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wakeGISer/buyTicket/issues"
+  },
+  "homepage": "https://github.com/wakeGISer/buyTicket#readme"
+}
